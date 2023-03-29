@@ -1,7 +1,36 @@
 /* General */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  margin: 0;
+}
+
+.title{
+  height: 100px;
+  font-family: 'Alkatra', cursive;
+}
+
+.select{
+  height: 80px;
+}
+
+.grey{
+  background-color: #dddddd;
+  height: calc(100vh - 180px);
+}
+
+.icon-box {
+  text-align: center;
+  padding: 15px;
+  height: 75px;
+  background-color: white;
+}
+
+.icon-box i{
+  font-size: 30px;
 }
